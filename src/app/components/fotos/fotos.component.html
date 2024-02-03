@@ -1,0 +1,10 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+    @for (item of items$ | async; track item) {
+        <div class="col">
+          <div class="card h-100">
+            <img [src]="item.url" class="card-img-top" [alt]="item.nombre">
+          </div>
+        </div>
+    }
+  </div>

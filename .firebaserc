@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "upload-files-21cd1": {
+      "hosting": {
+        "fileuploadfotosfirebase": [
+          "upload-files-21cd1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "upload-files-21cd1"
+  }
+}
